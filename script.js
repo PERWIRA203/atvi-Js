@@ -21,5 +21,23 @@ Main.innerHTML = content.map(article =>
                     </div>
                   </article>
                 `).join("");
-                
+/*
+Main.innerHTML = 
+    `
+    <article class="article">
+        <div class="title">
+            <h2>${article.title}</h2>
+        </div>
+        <aside class="aside">
+            <img src="${article.img}" alt="" id="img">
+        </aside>
+        <div class="paragraph">
+            <p>
+                ${article.p}
+            </p>
+        </div>
+    </article>
+    `
+*/
+
 
